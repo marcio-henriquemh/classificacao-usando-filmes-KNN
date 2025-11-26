@@ -41,9 +41,8 @@ def knn_manual(df, novo_ponto, k=3):
 
 
 
-# ============================================================
-# 4. Interface Tkinter
-# ============================================================
+#
+#Interface Tkinter
 
 janela = Tk()
 janela.title("Classificação de Filmes - KNN")
@@ -68,9 +67,8 @@ for lbl in labels:
     entradas[lbl] = entrada
 
 
-# ============================================================
-# 5. Função de classificação
-# ============================================================
+# 
+# Função de classificação
 
 def classificar():
     try:
